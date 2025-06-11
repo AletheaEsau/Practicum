@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:padding="16dp">
+
+    <EditText
+        android:id="@+id/itemName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Item Name"
+        android:minHeight="48dp"
+        tools:ignore="Autofill,HardcodedText,TextFields,VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Category"
+        android:minHeight="48dp"
+        tools:ignore="Autofill,HardcodedText,TextFields,VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/quantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Quantity"
+        android:inputType="number"
+        android:minHeight="48dp"
+        tools:ignore="Autofill,HardcodedText,VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Comment"
+        android:minHeight="48dp"
+        tools:ignore="Autofill,HardcodedText,TextFields,VisualLintTextFieldSize" />
+
+    <Button android:id="@+id/addButton"
+        android:text="Add to Packing List"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText,VisualLintButtonSize" />
+
+    <Button android:id="@+id/viewButton"
+        android:text="View List"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText,VisualLintButtonSize" />
+
+    <Button android:id="@+id/exitButton"
+        android:text="Exit App"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText,VisualLintButtonSize" />
+</LinearLayout>
